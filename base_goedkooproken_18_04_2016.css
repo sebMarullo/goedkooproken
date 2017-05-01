@@ -568,6 +568,7 @@ td.myshp_basket_vat_total_value, td.myshp_basket_vat_list_value, .myshp_basket_s
 					}
 					.myshp_checkout_products table tr td.myshp_basket_product_quantity a{
 						color:#000;
+						float:none;
 					}
 					.myshp_checkout_products table tr td.myshp_basket_product_unitprice{
 						text-align:right;
@@ -6684,4 +6685,71 @@ a#myshp_top_menu_toggle:hover {
 }
 #myshp-body .myshp_checkout_payment .myshp_checkout_products .myshp_checkout_paymentcost {
 	width: 70px;
+}
+
+.myshp_checkout_breadcrumb {display:none !important}
+
+.myshp_side_login .myshp_side_login__title_text{
+display: none;
+}
+.myshp_side_login h3.myshp_side_login__title:before{
+	content:"Mijn Account";
+	font-size:15px;
+	display:block;
+}
+
+.myshp_side_login .myshp_side_login__box .myshp_side_login__username_label{
+	color:#fff;
+}
+
+.myshp_side_login .myshp_side_login__box .myshp_side_login__username_label:before {
+	content:"E-mail adres";
+	 color: #444;
+}
+
+.myshp_side_login .myshp_side_login__box .myshp_side_login__password_label{
+	text-transform:capitalize;
+}
+
+.myshp_side_login .myshp_side_login__box .myshp_button_login .myshp_side_login__button_text{
+	color:#831518;
+	    font-size: 0
+}
+.myshp_side_login .myshp_side_login__box .myshp_button_login .myshp_side_login__button_text:before{
+	content:"Inloggen";
+	font-size:14px;
+	color:#fff;
+}
+
+
+#login-button a{
+		float: left;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #831518;
+    margin: 10px 0;
+    display: block;
+}
+
+
+#login-button a:hover{
+    background-color: #831518;
+    color:#fff;
+}
+
+@media(min-width:780px){
+
+	#login-button{
+		float: left;
+	    clear: right;
+		margin-left: 2vw;
+	}
+
+}
+
+#myshp-body .btn_content{
+    width: 100% !important;
+    text-align: center !important;
+    margin-top: 5px;
 }
