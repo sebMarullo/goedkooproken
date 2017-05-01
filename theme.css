@@ -1,0 +1,640 @@
+/* general before */
+
+
+/* V 1.9 */
+
+* {box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+*:selected {border:none;outline:none;}
+
+html{height:100%;}
+		body {
+background-color:transparent;
+background-attachment:scroll;
+background-image:none;
+background-repeat:repeat;
+background-position:0 0;
+		}
+	
+body.sticky-footer, body.sticky-footer #myshp-body, body.sticky-footer .myshp_container, body.sticky-footer .myshp_container_wrapper {
+	height:100%;
+}
+/*body.sticky-footer footer {position:absolute;bottom:0;}*/
+	
+	body.myshp_block_inner {
+		background:none;
+	}
+	
+	
+			.myshp_container {
+				margin:0 auto;
+				border-radius:0;
+				padding:0 10px;
+width:976px;
+				behavior:url(/skins/master/pie/PIE.htc);
+				position:relative;
+			}
+
+			.myshp_container {
+background-color:#fff;
+background-image:none;
+background-repeat:repeat;
+background-position:0 0;
+			}
+		
+			h1, h2, h3, h4, h5, h6 {
+			}
+		
+			body {
+			}
+		
+			a, a:link, a:visited, a:active, a:hover {
+text-decoration:none;
+color:#666666;
+				outline:none;
+			}
+		
+			a:hover {
+text-decoration:none;
+color:#8B8989;
+			}
+
+	
+			body, input, select, textarea, button, li, p, div{
+			}
+			h1, h2, h3, h4, h5, h6{
+			}
+
+
+			a.myshp_button, 
+			button.myshp_button, button, 
+			.myshp_block_inner_button,
+			a.myshp_button:link, 
+			a.myshp_button:visited, 
+			a.myshp_button:active, 
+			a.myshp_button:hover {
+				margin:0;
+color:#8B8989;
+border-width:1px;
+border-style:solid;
+border-color:#4D4D4D;
+background-color:#b6ccf4;
+				cursor:pointer;
+				padding:4px 10px;
+				height:24px;
+				line-height:13px;
+			}
+		
+			a.myshp_button:hover, button:hover, .myshp_block_inner_button:hover {
+background-color:#3C3C3C;
+color:#8B8989;
+			}
+
+
+		input, textarea, select {
+			float:left;
+			margin:0;
+border-width:1px;
+border-style:solid;
+border-color:#CCCCCC;
+		}
+	
+	input, textarea {
+		text-indent:3px;
+	}
+	
+	input {
+	}
+	
+	@media \0screen {
+	  input {line-height:15px;}
+	}
+	
+	input[type="radio"], input[type="checkbox"] {
+		border:none;
+	}
+	
+	select {
+		padding:3px 3px 3px 0;
+		text-indent:0;
+	}
+
+
+
+
+		header {
+background-color:transparent;
+background-image:none;
+background-repeat:repeat;
+background-position:0 0;
+		}
+
+		.myshp_logo {
+			float:left;
+			margin-top:10px;
+		}
+			.myshp_logo h1 {
+
+			}
+				.myshp_logo a, .myshp_logo a:link, .myshp_logo a:visited, .myshp_logo a:active, .myshp_logo a:hover {
+background-color:transparent;
+background-image:none;
+background-repeat:repeat;
+background-position:0 0;
+				}
+					.myshp_logo a img {
+
+					}
+
+		.myshp_top_menu {
+			float:right;
+			margin-top:10px;
+		}
+			.myshp_top_menu ul {
+				float:left;
+				clear:right;
+			}
+				.myshp_top_menu ul li {
+					float:left;
+					clear:right;
+				}
+				
+					.myshp_top_menu ul li a, .myshp_top_menu ul li a:link, .myshp_top_menu ul li a:visited, .myshp_top_menu ul li a:active {
+						padding-left:10px;
+						margin-left:10px;
+border-left-width:1px;
+border-left-style:solid;
+border-left-color:#8B8989;
+color:#000;
+font-size:11px;
+					}
+						.myshp_top_menu ul li:first-child a {
+							border-left:0;
+							padding-left:10px;
+							margin-left:10px;
+						}
+						
+							.myshp_top_menu ul li a:hover {
+color:#000;
+							}
+
+		.myshp_slogan {
+			margin-top:1em;
+			float:left;
+			clear:left;
+background-color:transparent;
+background-image:none;
+background-repeat:repeat;
+background-position:0 0;
+		}	
+
+
+
+		nav {
+			float:left;
+			width:100%;
+			border-radius:5px;
+			margin:1.45em 0;
+border-width:1px;
+border-style:solid;
+border-color:#cdcdcd;
+			behavior:url(/skins/master/pie/PIE.htc);
+			position:relative;
+		}
+		
+		.myshop_level2, .myshop_level3, nav {
+background-color:#b6ccf4;
+background-image:none;
+background-repeat:repeat;
+background-position:0 0;
+		}
+
+			nav ul {
+				float:left;
+				width:100%;
+			}
+			
+				nav ul li {
+					float:left;
+				}
+				
+
+				nav ul li a, nav ul li a:link, nav ul li a:visited, nav ul li a:active, nav ul li a:hover {
+					line-height:40px;
+					padding:0 10px;
+					display:block;
+font-size:12px;
+font-weight:normal;
+color:#666666;
+				}
+	
+				nav ul li a:hover {
+color:#3C3C3C;
+				}
+
+				nav ul li a.myshp_tabOn {
+color:#3C3C3C;
+font-weight:bold;
+				}
+	
+
+.myshp_main {
+	float:left;
+	width:100%;
+}
+
+/* Start of Column CSS */
+.myshp_container3 {
+	clear:left;
+	float:left;
+	width:100%;
+	overflow:hidden;
+}
+	.myshp_container2 {
+		clear:left;
+		float:left;
+		width:100%;
+		position:relative;
+		/*right:18%;*/
+	}
+		.myshp_container1 {
+			float:left;
+			width:100%;
+			position:relative;
+			/*right:64%;*/
+
+		}
+			.myshp_col1, .myshp_col2, .myshp_col3 {
+				min-height:300px;
+				padding-bottom:999em;
+				margin-bottom:-999em;
+			}
+			
+				.myshp_col1 {
+					float:left;
+					width:21%;
+					position:relative;
+					/*left:82%;*/
+					overflow:hidden;
+				}
+				
+					.myshp_col1 .myshp_pad {
+						margin-right:15px;
+					}
+					
+				.myshp_col2 {
+					float:left;
+					width:58%;
+					position:relative;
+					/*left:82%;*/
+					overflow:hidden;
+				}
+				
+				.myshp_column_count_1 .myshp_col2 {
+					width:100%;
+				}
+				
+					.myshp_column_count_1 .myshp_col2 .myshp_pad{
+						padding-left:15px;
+						padding-right:15px;
+					}
+					
+					.myshp_column_count_2 .myshp_col2 {
+						width:79%;
+					}
+					
+					.myshp_column_count_3 .myshp_col2 {
+						width:58%
+					}
+					
+				.myshp_col3 {
+					float:left;
+					width:21%;
+					position:relative;
+					/*left:82%;*/
+					overflow:hidden;
+				}
+				
+					.myshp_col3 .myshp_pad {
+						margin-left:15px;
+					}
+
+
+
+			.myshp_block {
+				margin-bottom:15px;
+				border-radius:0;
+background-color:transparent;
+background-image:none;
+background-position:0 0;
+background-repeat:repeat;
+				border:0 solid #CCCCCC;
+border-bottom-width:2px;
+border-bottom-style:solid;
+border-bottom-color:#fff;
+				behavior:url(/skins/master/pie/PIE.htc);
+				position:relative;
+				box-sizing:content-box;
+			}
+	
+		
+			h3, .myshp_box_title {
+				padding:7px;
+				display:block;
+font-size:12px;
+font-weight:bold;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:#CDCDCD;
+border-radius:0;
+background-color:transparent;
+background-image:none;
+background-position:0 0;
+background-repeat:repeat;
+				behavior:url(/skins/master/pie/PIE.htc);
+				position:relative;
+				box-sizing:content-box;
+			}
+			
+			h3 a, h3 a:link, h3 a:visited, h3 a:active, h3 a:hover {
+color:#333;
+			}
+	
+	
+			.myshp_block .myshp_box {
+				padding:7px;
+			}
+			.myshp_block fieldset {
+				width:100%;
+			}
+	
+			.myshp_block a, .myshp_block a:link, .myshp_block a:visited, .myshp_block a:active, .myshp_block a:hover {
+				text-decoration:none;
+			}
+	
+
+			.myshp_box .jcarousel-container .jcarousel-prev, .myshp_box .jcarousel-container .jcarousel-next{
+border-top-color:transparent;
+border-right-color:#222222;
+border-bottom-color:transparent;
+border-left-color:#222222;
+			}
+	
+	.myshp_menu .myshp_box {
+
+	}
+		.myshp_menu h3 {
+
+		}
+			.myshp_menu ul li {
+				list-style:square outside none;
+				margin-left:15px;
+			}
+
+					.myshp_menu ul ul {
+						margin-left:15px;
+					}
+						.myshp_menu ul ul li {
+							margin-left:0;
+						}
+						.myshp_menu ul li {
+
+						}
+							.myshp_menu_1 li .myshp_menu_2 li .myshp_menu_3 .myshp_menu_4 li, .myshp_menu_1 li .myshp_menu_2 li .myshp_menu_3 li, .myshp_menu_1 li .myshp_menu_2 li {
+								list-style:none;
+							}
+							.myshp_menu_1 li .myshp_menu_2 li .myshp_menu_3 .myshp_menu_4 li a, .myshp_menu_1 li .myshp_menu_2 li .myshp_menu_3 li a, .myshp_menu_1 li .myshp_menu_2 li a:link {
+								font-weight:normal;
+							}
+							
+								.myshp_menu ul li a, .myshp_menu ul li a:link, .myshp_menu ul li a:visited, .myshp_menu ul li a:active, .myshp_menu ul li a:hover {
+									display:block;
+									font-size:11px;
+									padding:0 0 7px 0;
+color:#000;
+font-weight:bold;
+								}
+							
+									.myshp_menu ul li a:hover, .myshp_menu ul li a.myshp_menu_item_active {
+
+									}
+									.myshp_menu ul li a:hover {
+
+									}
+									
+										.myshp_menu a:hover {
+color:#000;
+										}
+									
+										.myshp_menu .myshp_active_menu_item a.myshp_menu_item_active {
+font-weight:bold;
+color:#000000;
+										}
+
+	/*set=breadcrumb-block;sequence=1;*/
+	.myshp_block.myshp_breadcrumb {
+
+	}
+		.myshp_block.myshp_breadcrumb .myshp_breadcrumb_inner {
+
+		}
+	/**/
+
+	/*set=shopping-cart-block;sequence=1;*/
+		.myshp_side_basket {
+
+		}
+			.myshp_side_basket .box {
+
+			}
+				.myshp_side_basket p {
+					margin-bottom:5px;
+					margin-top:0;
+				}
+					.myshp_side_basket a:link, .myshp_side_basket a:visited, .myshp_side_basket a:active, .myshp_side_basket a:hover {
+
+					}
+					.myshp_side_basket a:hover {
+
+					}
+	/**/
+
+	/*set=search-block;sequence=1;*/
+		.myshp_side_search {
+
+		}
+			.myshp_side_search form {
+
+			}
+				.myshp_side_search .myshp_button, .myshp_side_search .search-ipt {
+
+				}
+					.myshp_side_search .myshp_button {
+
+					}
+					.myshp_side_search input {
+						width:100%;
+						margin-bottom:5px;
+					}
+	/**/
+
+	/*set=login;sequence=1;*/
+	.myshp_side_login, .myshp_side_logout {
+
+	}
+		.myshp_side_login .myshp_button, .myshp_side_logout .myshp_button {
+
+		}
+			.myshp_side_login input, .myshp_side_logout input {
+				clear:left;
+				width:100%;
+			}
+				.myshp_side_login label, .myshp_side_logout label {
+					clear:left;
+					float:left;
+					margin-bottom:7px;
+				}
+					.myshp_side_login .myshp_myaccount_login_info, .myshp_side_logout .myshp_myaccount_login_info {
+						clear:left;
+						float:left;
+						margin:0
+						font-size:11px;
+						cursor:pointer;
+					}
+						.myshp_side_login .myshp_myaccount_login_info a, .myshp_side_logout .myshp_myaccount_login_info a {
+
+						}
+	/**/
+
+	/*set=price-slider;sequence=1;*/
+
+	.myshp_price_slider .myshp_box {
+		padding:17px 10px;
+	}
+		.myshp_price_slider a.myshp_button {
+			float:right;
+			margin:7px 0 0 0 !important;
+		}
+		
+		.myshp_slide_filter a.myshp_block_inner_button:link, .myshp_slide_filter a.myshp_block_inner_button:visited {
+			line-height:15px;
+		}
+				.myshp_slide_filter .jslider-value input {
+					-moz-box-sizing:content-box;
+					-webkit-box-sizing:content-box;
+					box-sizing:content-box;
+				}
+	/**/
+
+
+
+		footer {
+			float:left;
+			width:100%;
+			padding:10px 0;
+text-align:center;
+background-color:transparent;
+background-image:none;
+background-position:0 0;
+background-repeat:repeat;
+		}
+	
+	
+		footer ul {
+		}
+		
+			footer ul li {
+			}
+			
+
+			footer ul li a, footer ul li a:link, footer ul li a:visited, footer ul li a:active, footer ul li a:hover {
+			}
+
+			footer ul li a:hover {
+			}
+
+
+	footer ul li:first-child a {
+		border-left:0;
+		padding:0;
+		margin:0;
+	}
+
+			footer div.myshp_footer_text {
+				padding:20px 0 10px;
+				float:left;
+				width:100%;
+font-size:11px;
+			}
+
+
+/* RESER COMMON.CSS */
+#myshp_info_search_block .myshp_info_search_button {
+	margin:20px 0 0;
+}
+.
+.myshp_basket_related h3 {
+	margin-bottom:15px;
+}
+/*ContactForm*/
+#myshp_contact_form fieldset {
+	border:none
+}
+/*PoweredBy*/
+/*Moreinfo*/
+#myshp_info_footer {
+	text-align:center;
+	display:block !important;
+	padding:10px 0;
+}
+.myshp_list_navigation #myshp_info_footer, #myshp_checkout_powered-by #myshp_info_footer {
+	padding:0;
+}
+/*Sitemap*/
+#myshp_sitemap h1 {
+	font-size:13pt;
+}
+#myshp_sitemap h2 {
+	font-size:13px;
+}
+/*Extended Search*/
+.myshp_info_search_block select {
+	width:100%;
+}
+/*Form Contact*/
+#myshp_contact_form label {
+	font-weight:normal
+}
+#myshp_contact_form .myshp_block_inner #myshp-body {
+	padding-left:10px;
+	padding-top:10px;
+	float:left;
+}
+#myshp_contact_form .myshp_contact_legend {
+	text-align:left;
+}
+/*Forms*/
+.myshp_block_inner h3 {
+	margin:0;
+}
+
+.myshp_checkout_orderpage .myshp_button_next {
+	float:right;
+}
+/* gerneral after */
+.myshp_list_product_box .myshp_button_moreinfo{
+	float: left !important;		
+}
+.myshp_list_product_box .myshp_button_order{
+	float:right !important;
+}
+#contentslider-347 ul li {
+    cursor: default !important;
+}
+
+.myshp_button_logout span:after {
+	content:"uitloggen";
+}
+
+.myshp_myaccount_favorites td {
+	vertical-align: top !important;
+}

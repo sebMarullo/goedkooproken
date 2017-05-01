@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
+        <title>My Account - Homepage</title>
+        <meta content="myshop-meta:keywords" name="keywords"/>
+        <meta content="myshop-meta:description" name="description"/>
+        <meta content="author" name="MijnWinkel, My Account Homepage, $Revision: 2862 $, $Date: 2009-11-09 06:43:12 -0300 (Mon, 09 Nov 2009) $"/>
+    </head>
+    <body>
+        <div class="myshp_myaccount myshp_myaccount_homepage">
+            
+			<div class="myshp_myaccount_container" style="myshop-block:myaccount-homepage">
+                
+				<!-- Begin - My Account Header -->
+				<h2>
+                    <span style="myshop-resource:label.login.welcome"> Welkom</span>&nbsp;
+                   
+                    <span style="myshop-value:customer-field-billing-firstname">&nbsp;</span><span style="myshop-value:customer-field-billing-name">&nbsp;</span>
+				</h2>
+				<!-- End - My Account Header -->
+				<br/><br/>
+				<!-- Begin - My Account Login Data -->
+                <table>
+                    <div class="myshp_myaccount_login" style="myshop-repeat:customer-fields-billing-exclude(email,remark)">
+                        <span style="myshop-is:checkout-address-field">
+                            <tr class="myshp_myaccount_login_row" style="myshop-has:value">
+                                <td>
+                                    <span style="myshop-value:label">
+                                        &nbsp;
+                                    </span>
+                                    :&nbsp;&nbsp;
+                                </td>
+                                <td style="myshop-value:value">
+                                    &nbsp;
+                                </td>
+                            </tr>
+                        </span>
+                    </div>
+                </table>
+				<!-- End - My Account Login Data -->
+				
+				<!-- Begin - Control Buttons -->
+                <div class="myshp_control_buttons">
+                    <a href="#" class="myshp_button myshp_button_change_password" style="myshop-action:goto-change-password" data-role="button">
+                        <span>
+							<span style="myshop-resource:changepassword">
+	                            wachtwoord aanpassen
+	                        </span>
+						</span>
+                    </a>
+                    &#160;
+					<a href="#" class="myshp_button myshp_button_orderlist" style="myshop-action:goto-myaccount-orderlist" data-role="button">
+                        <span>
+							<span style="myshop-resource:orderlist">
+	                         	view orders
+	                        </span>
+						</span>
+                    </a>
+                    &#160;
+					<a href="#" class="myshp_button myshp_button_boughtproduct" style="myshop-action:goto-myaccount-boughtproducts" data-role="button">
+                        <span>
+							<span style="myshop-resource:boughtproducts">
+	                         	bought products
+	                        </span>
+						</span>
+                    </a>
+                    &#160;
+					<a href="#" class="myshp_button myshp_button_favorites" style="myshop-action:goto-myaccount-favorites" data-role="button">
+                        <span>
+							<span style="myshop-resource:favorites">
+	                         	favorites
+	                        </span>
+						</span>
+                    </a>
+                    &#160;
+                    <a href="#" class="myshp_button myshp_button_logout" style="myshop-action:logout" data-role="button">
+                        <span>
+							<span style="myshop-resource:logout.button">
+	                         	logout
+	                        </span>
+						</span>
+                    </a>
+                    <div class="clear">&nbsp;</div>
+                </div>
+				<!-- Begin - Control Buttons -->
+				
+            </div>
+			
+            <!-- Begin - MijnWinkel PoweredBy Block -->
+            <div id="myshp_checkout_powered-by" style="myshop-default:powered-by">
+                &nbsp;
+            </div>
+            <!-- End - MijnWinkel PoweredBy Block -->
+			
+        </div>
+    </body>
+</html>
