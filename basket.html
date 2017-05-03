@@ -460,6 +460,15 @@
 			  
 
 			});
+
+			$(function(){
+				$('.myshp_basket_product_quantity input').keypress(function (e) {
+				  if (e.which == 13) {
+				    $('.myshp_checkout_products table tr td.myshp_basket_product_quantity a.myshp_button_update').click();
+				    return false;
+				  }
+				});
+			})
 		</script>
 		<style type="text/css">
 				

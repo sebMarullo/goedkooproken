@@ -6689,33 +6689,33 @@ a#myshp_top_menu_toggle:hover {
 
 .myshp_checkout_breadcrumb {display:none !important}
 
-.myshp_side_login .myshp_side_login__title_text{
+.myshp_column_count_1 .myshp_side_login .myshp_side_login__title_text{
 display: none;
 }
-.myshp_side_login h3.myshp_side_login__title:before{
+.myshp_column_count_1 .myshp_side_login h3.myshp_side_login__title:before{
 	content:"Mijn Account";
 	font-size:15px;
 	display:block;
 }
 
-.myshp_side_login .myshp_side_login__box .myshp_side_login__username_label{
+.myshp_column_count_1 .myshp_side_login .myshp_side_login__box .myshp_side_login__username_label{
 	color:#fff;
 }
 
-.myshp_side_login .myshp_side_login__box .myshp_side_login__username_label:before {
+.myshp_column_count_1 .myshp_side_login .myshp_side_login__box .myshp_side_login__username_label:before {
 	content:"E-mail adres";
 	 color: #444;
 }
 
-.myshp_side_login .myshp_side_login__box .myshp_side_login__password_label{
+.myshp_column_count_1 .myshp_side_login .myshp_side_login__box .myshp_side_login__password_label{
 	text-transform:capitalize;
 }
 
-.myshp_side_login .myshp_side_login__box .myshp_button_login .myshp_side_login__button_text{
+.myshp_column_count_1 .myshp_side_login .myshp_side_login__box .myshp_button_login .myshp_side_login__button_text{
 	color:#831518;
 	    font-size: 0
 }
-.myshp_side_login .myshp_side_login__box .myshp_button_login .myshp_side_login__button_text:before{
+.myshp_column_count_1 .myshp_side_login .myshp_side_login__box .myshp_button_login .myshp_side_login__button_text:before{
 	content:"Inloggen";
 	font-size:14px;
 	color:#fff;
@@ -6723,13 +6723,20 @@ display: none;
 
 
 #login-button a{
-		float: left;
+    float: left;
     width: 100%;
     text-align: center;
-    padding: 10px;
+    padding: 7px;
     border: 1px solid #831518;
-    margin: 10px 0;
+    margin: 16px 0 0px 0;
     display: block;
+    font-size: 13px;
+}
+
+@media(max-width:768px){
+	#login-button a{
+		margin-bottom:10px;
+	}
 }
 
 
@@ -6743,7 +6750,7 @@ display: none;
 	#login-button{
 		float: left;
 	    clear: right;
-		margin-left: 2vw;
+		margin-left: 12%;
 	}
 
 }
@@ -6752,4 +6759,14 @@ display: none;
     width: 100% !important;
     text-align: center !important;
     margin-top: 5px;
+}
+
+@media(max-width:768px){
+	#myshp-body .btn_content{
+		float: none !important;
+    	text-align: right !important;
+	}
+	.inc.button_quant{
+	   margin-right: 10px !important;
+	}
 }
